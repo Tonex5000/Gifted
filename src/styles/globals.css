@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  background: #020617; /* slate-950 */
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+section[id] {
+  scroll-margin-top: 110px; /* space for sticky header */
+}
