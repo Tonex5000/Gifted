@@ -1,11 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+  color: #e2e8f0;
+  background: #020617;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   width: 100%;
-  background: #020617; /* slate-950 */
+  background: #020617;
 }
 
 body {
@@ -14,5 +18,5 @@ body {
 }
 
 section[id] {
-  scroll-margin-top: 110px; /* space for sticky header */
+  scroll-margin-top: 110px;
 }

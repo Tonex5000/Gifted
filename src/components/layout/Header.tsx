@@ -1,5 +1,3 @@
-import React from "react";
-
 const navItems = [
   { label: "Home", href: "#home" },
   { label: "Features", href: "#features" },
@@ -117,7 +115,6 @@ export default function Header() {
     </header>
   );
 }
-
 
 
 

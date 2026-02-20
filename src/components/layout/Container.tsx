@@ -1,5 +1,11 @@
-import React from "react";
+import type { ReactNode } from "react";
 
-export default function Container({ children }: { children: React.ReactNode }) {
-  return <div className="mx-auto w-full max-w-6xl px-6">{children}</div>;
+type ContainerProps = {
+  children: ReactNode;
+  className?: string;
+};
+
+export default function Container({ children, className = "" }: ContainerProps) {
+  return <div className={`mx-auto w-full max-w-6xl px-5 md:px-6 ${className}`.trim()}>{children}</div>;
 }
+
