@@ -1,4 +1,3 @@
-import React from "react";
 import SectionTitle from "../components/ui/SectionTitle";
 import Card from "../components/ui/Card";
 

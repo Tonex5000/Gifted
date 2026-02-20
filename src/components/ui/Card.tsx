@@ -1,5 +1,3 @@
-import React from "react";
-
 type Accent = "cyan" | "emerald" | "orange";
 
 export default function Card({
